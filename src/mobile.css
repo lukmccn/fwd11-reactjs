@@ -1,0 +1,42 @@
+@media all and (max-width: 600px) {
+
+    .wrapper-header nav {
+        display: none;
+    }
+
+    .image-hero {
+        gap: 5.17px;
+        padding: 202px 13px 0px 12px; 
+        align-content: flex-start;
+    }
+    .image-hero > h2 {
+        font-size: 31.03px;
+        line-height: 38.79px;
+        letter-spacing: -1.29px;
+        padding: 4.5px 0px;
+    }
+    .image-hero > p {
+        font-size: 10.34px;
+        line-height: 16px;
+    }
+    .categories, .featured-product, .trending {
+        padding: 20px 0px 16px 16px;
+    }
+
+    .featured-product { padding-right: 4px; }
+    
+    .img-product > img {
+        height: 256px;
+        max-width: 176px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+    }
+    .desc-product { gap: 13px; }
+    .desc-product > p {
+        margin-right: -4px;
+    }
+    footer {
+        background-color: yellow;
+    }
+}
